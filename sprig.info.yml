@@ -4,6 +4,7 @@ description: This is a Twig theme!
 package: Contrib
 version: '8.x-1.0'
 core: 8.x
+base theme: stark
 
 regions:
   top_bar: Top Bar
