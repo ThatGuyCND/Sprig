@@ -1,0 +1,28 @@
+name: Sprig
+type: theme
+description: This is a Twig theme!
+package: Contrib
+version: '8.x-1.0'
+core: 8.x
+base theme: stark
+
+regions:
+  top_bar: Top Bar
+  header: Header
+  navigation: Main Navigation
+  breadcrumb: Breadcrumb
+  highlight: Highlight
+  content: Content
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
+  footer: Footer
+  help: Help
+  messages: Messages
+  page_top: Page Top
+  page_bottom: Page Bottom
+
+Stylesheets:
+  all:
+    - css/sprig.normalize.css
+    - css/sprig.no-query.css
+    - css/sprig.styles.css
