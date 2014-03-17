@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Modified default theme implementation to display a region for the top_bar region in Sprig.
+ * Modified default theme implementation to display a region for the breadcrumb region in Sprig.
  *
  * Available variables:
  * - content: The content for this region, typically blocks.
@@ -27,8 +27,8 @@
 {% endif %}
 
 {% if content and breadcrumb %}
-  <nav role="tertiary-navigation" class="menu--secondary-nav">
-    {{ secondary_menu }}
+  <nav role="tertiary-navigation" class="menu--breadcrumb-nav">
+    {{ breadcrumb }}
   </nav>
   <div{{ attributes }}>
     {{ content }}
