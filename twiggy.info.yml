@@ -1,8 +1,8 @@
-name: Sprig
+name: Twiggy
 type: theme
-description: This is a Twig theme!
+description: The first Drupal Twig theme, updated for Twig training 
 package: Contrib
-version: '8.x-1.0'
+version: '8.x-9.0'
 core: 8.x
 base theme: stark
 
@@ -23,6 +23,7 @@ regions:
 
 Stylesheets:
   all:
-    - css/sprig.normalize.css
-    - css/sprig.no-query.css
-    - css/sprig.styles.css
+    - css/twiggy.css
+    - css/twiggy.normalize.css
+    - css/twiggy.no-query.css
+    - css/twiggy.styles.css
