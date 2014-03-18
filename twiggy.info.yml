@@ -1,10 +1,24 @@
 name: Twiggy
 type: theme
+<<<<<<< Updated upstream
 description: 'First Drupal 8 Twig theme ever created <em>beware</em>.'
 package: Twiggy
 version: 8.x-1.0-alpha1
+=======
+description: The first Drupal Twig theme, updated for Twig training
+package: Contrib
+version: '8.x-9.0'
+core: 8.x
+>>>>>>> Stashed changes
 base theme: stark
 core: 8.x
 stylesheets:
   all:
+<<<<<<< Updated upstream
     - css/twiggy.css
+=======
+    - css/twiggy.css
+    - css/twiggy.normalize.css
+    - css/twiggy.no-query.css
+    - css/twiggy.styles.css
+>>>>>>> Stashed changes
